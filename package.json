@@ -1,0 +1,15 @@
+{
+  "name": "btc-market-maker-live",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "live": "node live_mm_bot.mjs"
+  },
+  "dependencies": {
+    "@polymarket/builder-relayer-client": "^0.0.7",
+    "@polymarket/clob-client-v2": "latest",
+    "viem": "latest"
+  }
+}
+
